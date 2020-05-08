@@ -1,9 +1,14 @@
 def finder(files, queries):
 
-    """
-    YOUR CODE HERE
-    """
+    hash_finder = { q: True for q in queries}
 
+    result = []
+
+    for i in files:
+        new = i.split("/")[-1]
+        if new in hash_finder:
+            result.append(i)
+            
     return result
 
 

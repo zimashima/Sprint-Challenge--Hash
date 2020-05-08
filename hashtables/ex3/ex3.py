@@ -1,11 +1,22 @@
 def intersection(arrays):
+    
+    hash_arrays = { i: [0] for i in array[0]}
 
-    """
-    YOUR CODE HERE
-    """
+    n = len(arrays)
 
-    return result
+    result = []
 
+    if n == 1:
+        for i in hash_arrays:
+            if len(hash_arrays[i]) == n:
+                result.append(hash_arrays[i])
+        
+        return result
+    
+    for i in arrays[n]:
+        if i in hash_arrays:
+            hash_arrays[i].append[n]
+        return intersection(arrays[n-1])
 
 if __name__ == "__main__":
     arrays = []
