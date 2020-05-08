@@ -11,8 +11,6 @@ def reconstruct_trip(tickets, length):
     route = ['NONE'] * (length+1)
     
     for i in range(0,length):
-        if hash_ticket[route[i]] == 'NONE':
-            break
         if route[i] in hash_ticket:
             route[i+1] = hash_ticket[route[i]]
 
