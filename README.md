@@ -35,11 +35,9 @@ This sprint challenge is made up of five hashtables-related challenges.
 
 ## Project Set Up
 
-#### [Hash Tables]
-
 For the hash tables portion of the sprint challenge, you'll be working
-through at least three algorithm problems that are amenable to being
-solved efficiently using a hash table.
+through algorithm problems that are amenable to being solved efficiently
+using a hash table.
 
 Navigate into each exercise's directory, read the instructions for the
 exercise laid out in the README, implement your solution in the .py
